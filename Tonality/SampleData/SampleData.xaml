@@ -1,0 +1,86 @@
+﻿<vm:SoundModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:Tonality.ViewModels">
+
+    <vm:SoundModel.Software>
+        <vm:SoundGroup Title="Software Sample">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Animals 1" FilePath="Animals.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Software>
+
+    <vm:SoundModel.NewAdds>
+        <vm:SoundGroup Title="NewAdds Sample">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="New 1" FilePath="Messengers.wav" />
+                
+                <vm:SoundData Title="Blackberry black you New 2" FilePath="Messengers.wav" />
+                <vm:SoundData Title="Google Hangout Testing Go" FilePath="Messengers.wav" />
+                <vm:SoundData Title="Adium Tokyo Contact on" FilePath="Messengers.wav" />
+                <vm:SoundData Title="new 1" FilePath="Messengers.wav" />
+                <vm:SoundData Title="new 2" FilePath="Messengers.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.NewAdds>
+    
+    <vm:SoundModel.Messengers>
+        <vm:SoundGroup Title="Messengers Sample">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Messengers 1" FilePath="Messengers.wav" />
+                <vm:SoundData Title="Messengers 2" FilePath="Messengers.wav" />
+                <vm:SoundData Title="Messengers 1" FilePath="Messengers.wav" />
+                <vm:SoundData Title="Messengers 2" FilePath="Messengers.wav" />
+                <vm:SoundData Title="Messengers 1" FilePath="Messengers.wav" />
+                <vm:SoundData Title="Messengers 2" FilePath="Messengers.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Messengers>
+
+    <vm:SoundModel.Entertainment>
+        <vm:SoundGroup Title="Entertainment Sample">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Entertainment 1"  FilePath="Entertainment.wav" />
+                <vm:SoundData Title="Entertainment 2"   FilePath="Entertainment.wav" />
+                <vm:SoundData Title="Entertainment 3"   FilePath="Entertainment.wav" />
+                <vm:SoundData Title="Entertainment 1"   FilePath="Entertainment.wav" />
+                <vm:SoundData Title="Entertainment 2"   FilePath="Entertainment.wav" />
+                <vm:SoundData Title="Entertainment 3"   FilePath="Entertainment.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Entertainment>
+
+    <vm:SoundModel.GamesMsc>
+        <vm:SoundGroup Title="GamesMsc Sample">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Blackberry berry Msc" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc test 2" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 3" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.GamesMsc>
+
+    <vm:SoundModel.Android>
+        <vm:SoundGroup Title="Android Sample">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Blackberry 3Bell Msc" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="Blackberry spirit 2" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="Blackberry spirit 2" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+                <vm:SoundData Title="GamesMsc 4" FilePath="GamesMsc.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Android>
+
+</vm:SoundModel>
