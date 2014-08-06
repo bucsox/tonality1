@@ -113,6 +113,7 @@ namespace Tonality.ViewModels
             SaveSoundAsRingtone = new RelayCommand<string>(ExecuteSaveSoundAsRingtone);
             this.Status = DownloadStatus.NotDownloaded;
             this.DownloadProgress = 0;
+            SaveSoundAs = new RelayCommand<string>(ExecuteSaveSoundAs);
         }
 
         public override bool Equals(object obj)
