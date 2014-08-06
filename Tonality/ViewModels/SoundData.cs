@@ -71,7 +71,7 @@ namespace Tonality.ViewModels
         #endregion
         [XmlIgnore]
         public RelayCommand<string> SaveSoundAsRingtone { get; set; }
-
+        [XmlIgnore]
         public RelayCommand<string> SaveSoundAs { get; set; }
 
         private async void ExecuteSaveSoundAs(string soundPath)
